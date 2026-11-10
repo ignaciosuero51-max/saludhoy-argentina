@@ -40,5 +40,35 @@
   "sub": "Si ya probaste tres marcas “cómodas” y los pies te siguen doliendo a la tarde, no es que no encontraste la zapatilla correcta. Es que estabas cambiando la parte equivocada.",
   "img": "bx-adv-pc-og.jpg",
   "kicker": "BIENESTAR · NOTA"
+ },
+ "trabajo-enfermeria-li-01": {
+  "title": "6 cosas que las enfermeras descubren tarde sobre el dolor de pies en las guardias (y la que les cambió el turno)",
+  "sub": "Hablamos con enfermeras y técnicas que hacen guardias de 12 horas sobre piso de hospital. Casi todas probaron lo mismo, en el mismo orden. Esto es lo que aprendieron.",
+  "img": "bx-adv-pc-enfermera-hero.jpg",
+  "kicker": "Trabajo & salud · Enfermería"
+ },
+ "fascitis-clinica-adv-01": {
+  "title": "Fascitis plantar: por qué la puntada de la mañana vuelve todos los días, y qué es lo único que corta el ciclo",
+  "sub": "Es la causa número uno de dolor de talón en adultos. El 80% de los casos se resuelve sin cirugía ni infiltraciones. El problema es que casi todos atacan el síntoma y no la causa.",
+  "img": "bx-adv-pc-fascitis-hero.jpg",
+  "kicker": "Guía · Dolor de talón"
+ },
+ "padres-mayores-historia-01": {
+  "title": "Mi mamá dejó de ir caminando al super “porque ya está grande”. Era otra cosa, y costó $30.000 arreglarla.",
+  "sub": "No es una nota médica. Es lo que me pasó con mi vieja de 72 años, lo que probamos, lo que no funcionó y lo que sí. La escribo porque hubiera querido leerla antes.",
+  "img": "bx-adv-pc-mayores-hero.jpg",
+  "kicker": "Historias · Cuidar a los que nos cuidaron"
+ },
+ "comodidad-review-01": {
+  "title": "Probé 7 plantillas durante 30 días con 9 horas de pie por día. Solo una sigue en mis zapatillas.",
+  "sub": "De la de gel de la farmacia a la de $250.000 del podólogo. Las usé en las mismas zapatillas, en el mismo trabajo, y anoté todos los días. Esto es el ranking, del peor al mejor.",
+  "img": "bx-adv-pc-flatlay.jpg",
+  "kicker": "Probamos · 30 días, 7 plantillas"
+ },
+ "pies-sensibles-consultorio-01": {
+  "title": "“Se me duermen los pies y me arde la planta al final del día. ¿Es normal? ¿Qué puedo hacer?”",
+  "sub": "Respondemos las seis preguntas que más nos llegan sobre pies sensibles, hormigueo y ardor en la planta. Sin prometer curas: explicando qué parte depende del médico y qué parte depende de sobre qué apoyás 10.000 pasos por día.",
+  "img": "bx-adv-pc-sensibles-hero.jpg",
+  "kicker": "Consultorio · Preguntas de lectores"
  }
 }
