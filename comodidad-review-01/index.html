@@ -302,6 +302,8 @@ video.vid{width:100%;display:block;background:#eee}
   var d=new Date(),ms=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];var el=document.querySelector('[data-date]');if(el)el.textContent=d.getDate()+' de '+ms[d.getMonth()]+' de '+d.getFullYear();
   var st=document.getElementById('sticky');var hero=document.querySelector('.hero');window.addEventListener('scroll',function(){var y=window.scrollY;st.classList.toggle('is-on',y>420)},{passive:true});
   var t=document.querySelector('[data-bxadv-timer]');if(t){var end=new Date();end.setHours(23,59,59,0);setInterval(function(){var s=Math.max(0,Math.floor((end-new Date())/1000));var h=Math.floor(s/3600),mi=Math.floor(s%3600/60),se=s%60;t.textContent=[h,mi,se].map(function(x){return String(x).padStart(2,'0')}).join(':')},1000)}
+  var vids=[].slice.call(document.querySelectorAll('video.vid'));if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(x){var v=x.target;if(x.isIntersecting){var p=v.play();if(p&&p.catch)p.catch(function(){})}else{v.pause()}})},{rootMargin:'120px 0px'});vids.forEach(function(v){io.observe(v)})}else{vids.forEach(function(v){v.play()})}
+  document.addEventListener('touchstart',function(){vids.forEach(function(v){if(v.paused){var r=v.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight){var p=v.play();if(p&&p.catch)p.catch(function(){})}}})},{passive:true,once:true});
   var sk=document.querySelector('[data-stock]');if(sk){var base=137,day=Math.floor(Date.now()/864e5);sk.textContent=base-(day%7)*9}
 })();
 </script></body></html>
